@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "projects.css">
+    <title>tes</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <div class="logo">
+                    <img src="logo.png" alt="logo" class="logo-perusahaan">
+                </div>
+                <div class="responsive-bar">
+                    <div class="hamburger-bar">
+                        <img src="hamburger-bar.svg" class="imgburger">
+                    </div>
+                    <div class="resp-list">
+                        <a href="index.html">Home</a>
+                        <a href="aboutus.html">About Us</a>
+                        <a href="csr.html">CSR</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="orca.html">Products</a>
+                        <a href="document.html">Governance Document</a>
+                        <a href="contacts.html">Contact</a>
+                        <a href="#">Sign In</a>
+                        <a href="#">Sign Up</a>
+                    </div>
+                </div>
+                <div class="nav-li">
+                    <li class="blue"><a href="index.html">Home</a></li>
+                    <select class="dropdown" onchange="location = this.value;">
+                        <option value=""hidden selected>About Us</option>
+                        <option value="aboutus.html">About Us</option>
+                        <option value="csr.html">CSR</option>
+                    </select>
+                    <select class="dropdown" onchange="location = this.value;">
+                        <option value=""hidden selected>Projects</option>
+                        <option value="projects.html">Projects</option>
+                        <option value="orca.html">Products</option>
+                    </select>
+                    <li class="red"><a href="document.html">Governance Document</a></li>
+                    <li class="yellow"><a href="contacts.html">Contact</a></li>
+                </div>
+                <div class="logreg">
+                    <a href="#">Sign In</a>
+                    <a href="#">Sign Up</a>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="banner-container">
+                <img src="projects-banner.png" alt="projects-banner">
+            </div>
+            <div class="text-banner">
+                <h1>Projects</h1>
+                <p>PT. Multikreasi Prima Energi</p>
+            </div>
+        </div>
+    <div class="container">
+        <!-- DISPLAY BOX -->
+            <div class="main-content">
+                <div class="display-box" id="displayBox">
+                    <div id="popup" class="popup-box">
+                        <div class="main-text">Pengalaman Perusahaan</div>
+                        <div class="sub-text">PT. Multikreasi Prima Energi</div>
+                    </div>
+                    <img id="displayImage" src="projects-content1.png">
+                    <div class="scroll-box" id="scrollBox">
+                        <img src="projects-content1.png"
+                        onclick="changeDisplay(
+                            'projects-content1.png',
+                            'PEMBUATAN PONDASI BATCHING PLANT',
+                            'Proyek NIPA Storage Tank Terminal<br>Location : Pulau Nipa, Batam<br>Year : 2018<br>Client : PT. Dayakreasi Cipta Energi<br>qq. PT. PP Presisi'
+                        )">
+
+                        <img src="projects-content2.png"
+                        onclick="changeDisplay(
+                            'projects-content2.png',
+                            'Pembuatan & Pemasangan Troli, Sistem Mekanik, Listrik & Hidrolik untuk PCI',
+                            'Pembuatan & Pemasangan Troli, Sistem Mekanik, Listrik & Hidrolik untuk PCI<br>Girder Formwork - Mojokerto'
+                        )">
+
+                        <img src="projects-content3.png"
+                        onclick="changeDisplay(
+                            'projects-content3.png',
+                            'PEKERJAAN MEKANIKAL, ELEKTRIKAL & PLUMBING (MEP)',
+                            'PEKERJAAN MEKANIKAL, ELEKTRIKAL & PLUMBING (MEP)<br>Gedung PLN UP3<br>Kota Payakumbuh<br>Sumatera Barat<br><br>Location : Payakumbuh<br>Year : 2021<br>Client : 3GA><br>PT. Gian Gheana Gavin Abadi'
+                        )">
+
+                        <img src="projects-content4.png"
+                            onclick="changeDisplay(
+                            'projects-content4.png',
+                            'Pekerjaan PABX, IP PHONE & CCTV',
+                            'Race Sircuit International Mandalika, Lombok'
+                        )">
+
+                        <img src="projects-content5.png"
+                            onclick="changeDisplay(
+                            'projects-content5.png',
+                            'Pengadaan EPCI Cantik-1 Addendum 6',
+                            'Pengadaan EPCI Cantik-1 Addendum 6<br>Location : Blok Belida, MuaraEnim<br>Year : 2020<br>Client : PT. Sele Raya Belida'
+                        )">
+
+                        <img src="projects-content6.png"
+                            onclick="changeDisplay(
+                            'projects-content6.png',
+                            'INTERCONNECTION PAGING SISTEM & PABX',
+                            'Kawasan MM2100 PT.<br>SUMITOMO ELECTRIC WINTEC INDONESIA'
+                        )">
+
+                        <img src="projects-content7.png"
+                            onclick="changeDisplay(
+                            'projects-content7.png',
+                            'Pekerjaan Sipil (Arsitektur)',
+                            'Location : TBBM Labuan Bajo<br>Year : 2023-2024<br>Client : PT. SHOLDAN RAGI ENERGI'
+                        )">
+
+                        <img src="projects-content8.png"
+                            onclick="changeDisplay(
+                            'projects-content8.png',
+                            'Pekerjaan Tangki dan Piping',
+                            'Location : TBBM Labuan Bajo<br>Year : 2024<br>Client : PT. SHOLDAN RAGI ENERGI'
+                        )">
+
+                        <img src="projects-content9.png"
+                            onclick="changeDisplay(
+                            'projects-content9.png',
+                            'Pekerjaan Elektrical',
+                            'Location : TBBM Labuan Bajo<br>Year : 2023-2024<br>Client : PT. SHOLDAN RAGI ENERGI'
+                        )">
+
+                        <img src="projects-content10.png"
+                            onclick="changeDisplay(
+                            'projects-content10.png',
+                            'Pekerjaan APAP',
+                            'Location : TBBM Labuan Bajo<br>Year : 2024<br>Client : PT. SHOLDAN RAGI ENERGI'
+                        )">
+                    </div>
+                </div>
+                <div class="arrow">
+                    <img src="arrowscroll.png" class="right-arrow">
+                    <img src="arrowscroll.png" class="left-arrow">
+                </div>
+
+                <div class="text-container">
+                    <h2 id="displayTitle">PEMBUATAN PONDASI BATCHING PLANT</h2>
+                    <p id="displayDesc">
+                        Proyek NIPA Storage Tank Terminal<br>Location : Pulau Nipa, Batam<br>Year : 2018<br>Client : PT. Dayakreasi Cipta Energi<br>qq. PT. PP Presisi
+                    </p>
+                </div>
+            </div>
+        <div class="footer">
+            <div class="line"></div>
+            <div class="footer-container">
+                    <div class="nav-footer">
+                        <div class="content1">
+                            <h5>Home</h5>
+                            <a href="index.html">Siapa Kami?</a></li>
+                        </div>
+                        <div class="content2">
+                            <h5>About Us</h5>
+                            <a href="aboutus.html#tentang-perusahaan">Tentang Perusahaan</a>
+                            <a href="aboutus.html#visi-misi">Visi & Misi</a>
+                            <a href="aboutus.html#direksi">Direksi</a>
+                            <a href="aboutus.html#nilai-nilai">Nilai - Nilai</a>
+                            <a href="aboutus.html#bisnis">Ruang Lingkup bisnis</a>
+                        </div>
+                        <div class="content3">
+                            <h5>Projects</h5>
+                            <a href="#">Pengalaman Perusahaan</a>
+                        </div>
+                        <div class="content4">
+                            <h5>Products</h5>
+                            <a href="orca.html">Orca</a>
+                            <a href="watlow.html">Watlow</a>
+                            <a href="servvo.html">Servvo</a>
+                        </div>
+                        <div class="content5">
+                            <h5>Governance Document</h5>
+                            <a href="document.html">Documents</a>
+                        </div>
+                        <div class="content6">
+                            <h5>Contacts</h5>
+                            <a href="">Whatsapp</a>
+                        </div>
+                    </div>
+                    <div class="others">
+                        <div class="contacts">
+                            <p> support@mpe-group.co.id</p>
+                            <p>(021) 82743231</p>
+                        </div>
+                        <p>Grand Galaxy City Blok RSA 3 No.53 Jaka Setia Bekasi Selatan,Kota Bekasi, Jawa Barat 17147</p>
+                        <h3>©PT. Multikreasi Prima Energi, All Rights Reserved</h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </main>
+    <script>
+        let subMenu = document.querySelector(".resp-list");
+
+        window.addEventListener("click", (e) => {
+            if(e.target.closest(".imgburger")) {
+                subMenu.style.display = "flex";
+            } else {
+                subMenu.style.display = "none";
+            }
+        });
+
+        // function display box //
+
+        function displaybox(displayimg, displaytitle, displaydesc) {
+            document.getElementById("display-img").src = displayimg;
+            document.getElementById("display-title").innerText = displaytitle;
+            document.getElementById("display-desc").innerHTML = displaydesc;
+        }
+
+        function adjustScrollBoxHeight() {
+            const displayBox = document.getElementById("displayBox");
+            const scrollBox = document.getElementById("scrollBox");
+            const realHeight = displayBox.getBoundingClientRect().height;
+            scrollBox.style.height = realHeight + "px";
+        }
+
+        function changeDisplay(imageSrc, title, description) {
+            document.getElementById("displayImage").src = imageSrc;
+            document.getElementById("displayTitle").textContent = title;
+            document.getElementById("displayDesc").innerHTML = description;
+
+            setTimeout(adjustScrollBoxHeight, 30);
+        }
+
+        window.onload = () => {
+            adjustScrollBoxHeight();
+            setTimeout(adjustScrollBoxHeight, 50);
+        };
+
+        window.onresize = adjustScrollBoxHeight;
+
+    const popup = document.getElementById("popup");
+
+    const tampilDurasi = 3000;      // tampil 3 detik
+    const jedaKemunculan = 20000;   // muncul setiap 20 detik
+
+    function tampilkanPopup() {
+
+        // mulai tampil
+        popup.style.display = "flex";
+
+        // Fade in
+        setTimeout(() => {
+            popup.style.opacity = "1";
+        }, 50);
+
+        // Expand setelah fade-in sedikit
+        setTimeout(() => {
+            popup.classList.add("expanded");
+        }, 200);
+
+        // Tutup setelah durasi tampil
+        setTimeout(() => {
+            // Collapse
+            popup.classList.remove("expanded");
+
+            // Fade-out
+            setTimeout(() => {
+                popup.style.opacity = "0";
+            }, 200);
+
+            // Setelah fade-out selesai, sembunyikan kotaknya
+            setTimeout(() => {
+                popup.style.display = "none";
+            }, 800);
+
+        }, tampilDurasi);
+    }
+
+    // Muncul pertama kali setelah 1 detik
+    setTimeout(() => {
+        tampilkanPopup();
+    }, 1000);
+
+    // Muncul setiap 20 detik
+    setInterval(() => {
+        tampilkanPopup();
+    }, jedaKemunculan);
+    </script>
+</body>
+</html>
